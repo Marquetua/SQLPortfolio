@@ -5,4 +5,6 @@ Peanut Butter (1)
 Dark Chocolate Bars (2)
 **/
 
-CREATE TABLE groceries (name TEXT );
+CREATE TABLE groceries (id INTEGER PRIMART KEY, name TEXT, quanity INTEGER );
+
+INSERT INTO groceries VALUES (
